@@ -14,7 +14,7 @@ interface StudentRepositoryInterface
     /**
      * Lists active student.
      *
-     * @return \Magento\CheckoutAgreements\Api\Data\AgreementInterface[]
+     * @return \Magestore\Student\Api\Data\StudentInterface[]
      */
     public function getList();
 
@@ -22,13 +22,13 @@ interface StudentRepositoryInterface
     /**
      * Create/Update new student with data object values
      *
-     * @param \Magento\CheckoutAgreements\Api\Data\AgreementInterface $data
+     * @param \Magestore\Student\Api\Data\StudentInterface $data
      * @param int $studentId
-     * @return \Magento\CheckoutAgreements\Api\Data\AgreementInterface
+     * @return \Magestore\Student\Api\Data\StudentInterface
      * @throws \Magento\Framework\Exception\CouldNotSaveException If there is a problem with the input
      * @throws \Magento\Framework\Exception\NoSuchEntityException If a ID is sent but the entity does not exist
      */
-    public function save(\Magento\CheckoutAgreements\Api\Data\AgreementInterface $data, $studentId = null);
+    public function save(\Magestore\Student\Api\Data\StudentInterface $data, $storeId = null);
 
 
     /**

@@ -25,5 +25,12 @@
     "psr-4": {
       "MageHit\\Faq\\": ""
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/RaviNguyen/Magestore-Student-TrainM2"
+    }
+  ]
+
 }

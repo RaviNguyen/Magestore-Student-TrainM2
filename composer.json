@@ -14,8 +14,7 @@
     {
       "name": "Ravi",
       "email": "ravi@simicart.com",
-      "homepage": "",
-      "role": "Developer"
+      "homepage": ""
     }
   ],
   "autoload": {
